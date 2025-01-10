@@ -8,7 +8,7 @@ public class Main {
         Player starPlayer = new Player("Lionel Messi", 35, 30, 20);
 
         // Create an ArrayList to store Player objects
-        ArrayList<Player> team = new ArrayList<>();
+        ArrayList<Player> team = new ArrayList<>()
 
         // Add the first object to the ArrayList
         team.add(starPlayer);
